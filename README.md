@@ -2,9 +2,9 @@
 
 ## 中文
 
-Lizard Interpreter 是一个基于 C++ 实现的简易脚本解释器项目，用于演示“词法分析、表达式解析、字节码生成与虚拟机执行”这一类解释器基本结构。
+Lizard Interpreter 是一个基于 C++ 实现的简易编译器项目，用于演示“词法分析、表达式解析、字节码生成与虚拟机执行”这一类解释器基本结构。
 
-这个项目最初是一个教学型内测版本，当前已经具备了基本的脚本执行能力，适合用于学习解释器原理、虚拟机设计以及简单语言的编译/运行流程。
+这个项目最初是一个教学型内测版本，当前已经具备了基本的脚本执行能力，适合用于学习编译器原理以及简单语言的编译/运行流程。
 
 ## 项目特点
 
@@ -59,7 +59,7 @@ Lizard.exe --register
 
 ## 说明
 
-当前版本仍属于轻量级解释器，重点在于展示基本实现思路，后续可以继续扩展为更完整的脚本语言，例如：
+当前版本仍属于轻量级编译器，重点在于展示基本实现思路，后续可以继续扩展为更完整的脚本语言，例如：
 
 - 函数定义与调用
 - 更多的数据类型
@@ -68,9 +68,9 @@ Lizard.exe --register
 
 ## English
 
-Lizard Interpreter is a lightweight C++-based scripting interpreter project designed to demonstrate the fundamental structure of an interpreter, including lexical analysis, expression parsing, bytecode generation, and virtual machine execution.
+Lizard Compiler is a lightweight C++-based scripting compiler project designed to demonstrate the fundamental structure of an compiler, including lexical analysis, expression parsing, bytecode generation, and virtual machine execution.
 
-This project started as a teaching-oriented internal preview version. It already supports basic script execution and is suitable for learning interpreter principles, virtual machine design, and the basic workflow of compiling and running a simple language.
+This project started as a teaching-oriented internal preview version. It already supports basic script execution and is suitable for learning compiler principles, virtual machine design, and the basic workflow of compiling and running a simple language.
 
 ## Features
 
@@ -125,7 +125,7 @@ Lizard.exe --register
 
 ## Notes
 
-The current version is still a lightweight interpreter focused on demonstrating core implementation ideas. It can be extended in the future to support a more complete scripting language, such as:
+The current version is still a lightweight compiler focused on demonstrating core implementation ideas. It can be extended in the future to support a more complete scripting language, such as:
 
 - Function definitions and calls
 - More data types
