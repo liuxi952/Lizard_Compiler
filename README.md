@@ -1,10 +1,8 @@
 # Lizard Compiler
 
-## 中文
+Lizard Compiler 是一个基于 C++ 实现的简易脚本解释器项目，用于演示“词法分析、表达式解析、字节码生成与虚拟机执行”这一类解释器基本结构。
 
-Lizard Compiler 是一个基于 C++ 实现的简易编译器项目，用于演示“词法分析、表达式解析、字节码生成与虚拟机执行”这一类编译器基本结构。
-
-这个项目最初是一个教学型内测版本，当前已经具备了基本的脚本执行能力，适合用于学习编译器原理以及简单语言的编译/运行流程。
+这个项目最初是一个教学型内测版本，当前已经具备了基本的脚本执行能力，适合用于学习解释器原理、虚拟机设计以及简单语言的编译/运行流程。
 
 ## 项目特点
 
@@ -59,75 +57,9 @@ Lizard.exe --register
 
 ## 说明
 
-当前版本仍属于轻量级编译器，重点在于展示基本实现思路，后续可以继续扩展为更完整的脚本语言，例如：
+当前版本仍属于轻量级解释器，重点在于展示基本实现思路，后续可以继续扩展为更完整的脚本语言，例如：
 
 - 函数定义与调用
 - 更多的数据类型
 - 更完善的语法错误处理
 - 更丰富的控制流支持
-
-## English
-
-Lizard Compiler is a lightweight C++-based scripting compiler project designed to demonstrate the fundamental structure of an compiler, including lexical analysis, expression parsing, bytecode generation, and virtual machine execution.
-
-This project started as a teaching-oriented internal preview version. It already supports basic script execution and is suitable for learning compiler principles, virtual machine design, and the basic workflow of compiling and running a simple language.
-
-## Features
-
-- Supports print statements
-- Supports variable definition and assignment
-- Supports basic arithmetic expressions: +, -, *, /
-- Supports comparison expressions: >, <, >=, <=, ==, !=
-- Supports string literals
-- Supports if / else branches
-- Supports while loops
-- Supports ++ and -- increment/decrement operations
-- Supports return statements
-- Supports running scripts from .cl files
-
-## Example Code
-
-```cl
-int i = 0
-while(i < 2) {
-    i++
-}
-print i
-```
-
-Another simple example:
-
-```cl
-int a = 3
-int b = 5
-print a + b
-print "Hello, Lizard!"
-```
-
-## Project Structure
-
-- Lizard/Lizard/Lizard.cpp: main program, lexical analysis, syntax compilation, and virtual machine execution logic
-- Lizard/test.cl: example script file
-
-## How to Run
-
-1. You can run the executable directly in the folder and pass in a .cl script file:
-
-```bash
-Lizard.exe test.cl
-```
-
-If you want to register .cl file association, you can also run:
-
-```bash
-Lizard.exe --register
-```
-
-## Notes
-
-The current version is still a lightweight compiler focused on demonstrating core implementation ideas. It can be extended in the future to support a more complete scripting language, such as:
-
-- Function definitions and calls
-- More data types
-- More robust syntax error handling
-- Richer control flow support
