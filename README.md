@@ -1,5 +1,7 @@
 # Lizard Compiler
 
+[English](https://github.com/liuxi952/Lizard_Compiler/blob/main/README-en.md)
+
 Lizard Compiler 是一个基于 C++ 实现的简易脚本解释器项目，用于演示“词法分析、表达式解析、字节码生成与虚拟机执行”这一类解释器基本结构。
 
 这个项目最初是一个教学型内测版本，当前已经具备了基本的脚本执行能力，适合用于学习解释器原理、虚拟机设计以及简单语言的编译/运行流程。
